@@ -73,6 +73,7 @@ const Employees = ({ employees, baseUrl }) => {
           </table>
         </div>
         <article className="form">
+          <p>Want to get add in this list?? Enter your details below..</p>
           <form>
             <div className="form-control">
               <label htmlFor="firstName">First Name : </label>
@@ -120,36 +121,17 @@ const Employees = ({ employees, baseUrl }) => {
             </button>
           </form>
         </article>
+        <h3 className="info">Here is the graphical representaion of data.</h3>
         <button
           onClick={() => {
             setShowInfo(!showInfo);
           }}
         >
-          Click
+          More Info
         </button>
         {showInfo && (
           <Chart ageData={ages} salaryData={salaries} nameData={names} />
         )}
-
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, maxime
-          rerum fugiat numquam rem voluptates id aspernatur quidem odit ipsam
-          libero debitis alias earum minus cum consectetur. In, nulla veritatis.
-          Sint nobis dolore tempore quibusdam aperiam perspiciatis sit. Quae
-          totam voluptatibus assumenda praesentium voluptates veritatis, beatae
-          autem ad culpa cum! Saepe dignissimos inventore doloremque. Voluptatem
-          odit labore veniam placeat quos? Perferendis molestiae tempora
-          necessitatibus, soluta nulla deleniti at vitae velit ex dolore non
-          natus excepturi autem, ratione atque exercitationem ipsum veniam culpa
-          aperiam illum aliquid quae quia sit? Blanditiis, architecto? Nemo
-          harum quas explicabo reiciendis laboriosam culpa at ipsa rerum nostrum
-          ratione quibusdam nulla quam quo blanditiis nesciunt, exercitationem
-          voluptas fugiat dolorum aut odio totam qui. Voluptates, eum possimus?
-          Et? Nobis quia eos vel a, deleniti quam sit blanditiis in porro
-          nesciunt debitis asperiores ab quibusdam doloribus alias, sapiente
-          fugiat explicabo laudantium laborum? Quod blanditiis, totam voluptatem
-          adipisci cupiditate dolorem!
-        </p>
       </section>
     </div>
   );

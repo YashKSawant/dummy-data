@@ -12,7 +12,7 @@ const NavBar = () => {
           </h2>
         </Link>
         <a
-          href="https://github.com/YashKSawant/asian-countries"
+          href="https://github.com/YashKSawant/dummy-data"
           target="_blank"
           rel="noreferrer"
         >
